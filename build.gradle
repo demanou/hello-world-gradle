@@ -1,21 +1,4 @@
 plugins {
-<<<<<<< HEAD
-   id "java"
-   id "com.diffplug.spotless" version "7.0.2"
-}
-
-
-repositories {
-   mavenCentral()
-}
-
-
-spotless {
-   java {
-       googleJavaFormat()
-   }
-}
-=======
     id "java"
     id "com.diffplug.spotless" version "7.0.2"
 }
@@ -29,4 +12,3 @@ spotless {
         googleJavaFormat()
     }
 }
->>>>>>> 68bc57a13718772da1ee03fd1e14f1a3dcf4dde5
