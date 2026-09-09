@@ -26,6 +26,13 @@ jobs:
     - name: Grant execute permission for Gradle
       run: chmod +x gradlew
 
+    - name: Check Java Formatting
+      run: ./gradlew spotlessCheck
+
+    # For Gradle (Uncomment the line below if using Gradle):
+    - name: Run Gradle Lint
+      run: ./gradlew lint
+
     - name: Build with Gradle
       run: ./gradlew build
 
